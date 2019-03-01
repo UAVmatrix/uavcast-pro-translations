@@ -5,7 +5,7 @@
 * Download **en.json** to your computer, and make a copy of that file with the language abbreviation you want to use. example  "fr.json for france".
 * Make the changes you want use. Only change the text on right hand side of :
 
-###Example en.json
+#### Example en.json
   ```javascript
 "headerLinks":{
     "community":"Community",
@@ -20,7 +20,7 @@ For Norwegian language, this file would have been edited like
   }
 ```
 
-* when you ahve completed the file, upload it to your forked version on github. 
+* when you have completed the file, upload it to your forked version on github. 
 * then go to [https://github.com/UAVmatrix/uavcast-pro-translations](https://github.com/UAVmatrix/uavcast-pro-translations) and press merge request.
 
 * Or you can send the file to uavmatrix@uavmatrix.com
