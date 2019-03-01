@@ -1,4 +1,31 @@
 {
+  "headerLinks":{
+    "community":"Community",
+    "documentation":"Documentation"
+  },
+  "sidebarLinks": {
+    "categories": {
+      "header": "Dashboard",
+      "settings": {
+        "title": "Settings",
+        "flightController": "Flight Controller",
+        "groundControl": "Ground Control",
+        "cellModem": "Cell Modem",
+        "dynamicDns": "Dynamic DNS",
+        "camera": "Camera",
+        "vpn": "VPN"
+      },
+      "tools": {
+        "title":"Tools",
+        "raspberry": "Raspberry"
+      },
+      "application": {
+        "title":"Application",
+        "settings": "Settings",
+        "version": "Version"
+      }
+    }
+  },
   "dashboard": {
     "uavcast": {
       "statusLeds": {
@@ -76,167 +103,220 @@
       }
     }
   },
-  "flightcontroller":{
-    "title":"Flight Controller",
-    "subTitle":"Flight Controller configuration",
-    "fcType":"FC Type",
-    "fcTypeDescription":"Choose a flight controller. All ardupilot versions and Px4 is supported.",
-    "connection":"Connection",
-    "connectionDescription":"Select connection method",
-    "baud":"Baud",
-    "baudDescription":"Select baud rate",
-    "protocol":"Protocol",
-    "protocolDescription":"Select connection protocol",
-    "buttons":{
-      "start":"Start Telemetry",
-      "stop":"Stop Telemetry",
-      "logfile":"LogFile"
+  "flightcontroller": {
+    "title": "Flight Controller",
+    "subTitle": "Flight Controller configuration",
+    "fcType": "FC Type",
+    "fcTypeDescription": "Choose a flight controller. All ardupilot versions and Px4 is supported.",
+    "connection": "Connection",
+    "connectionDescription": "Select connection method",
+    "baud": "Baud",
+    "baudDescription": "Select baud rate",
+    "protocol": "Protocol",
+    "protocolDescription": "Select connection protocol",
+    "buttons": {
+      "start": "Start Telemetry",
+      "stop": "Stop Telemetry",
+      "logfile": "LogFile"
     },
-    "tips":{
-      "1":"Its very important that both RPI and FC shares the same electrical ground if you have connected your FC to RPI GPIO, serial communication depends on that.",
-      "2":"If you experience issues using USB cable, make sure you have removed all other USB devices from RPI. Some USB devices could cause conflicts."
+    "tips": {
+      "1": "Its very important that both RPI and FC shares the same electrical ground if you have connected your FC to RPI GPIO, serial communication depends on that.",
+      "2": "If you experience issues using USB cable, make sure you have removed all other USB devices from RPI. Some USB devices could cause conflicts."
     },
-    "navio":{
-      "vehicle":"Vehicle",
-      "launchOptions":"Launching options (Optional)",
-      "launchOptionsDescription":"Mapping between switches and serial ports."
+    "navio": {
+      "vehicle": "Vehicle",
+      "launchOptions": "Launching options (Optional)",
+      "launchOptionsDescription": "Mapping between switches and serial ports."
     }
   },
-  "groundControlStation":{
-    "title":"Ground Control Station",
-    "subTitle":"Add Ground Control Station IP address and port.",
-    "subTitle1":"<b>NOTE!</b> Adding Ground Control IP addresses only applies if UDP is selected for Telemetry or video",
-    "buttons":{
-      "addDestinations":"Add Destination"
+  "groundControlStation": {
+    "title": "Ground Control Station",
+    "subTitle": "Add Ground Control Station IP address and port.",
+    "subTitle1": "<b>NOTE!</b> Adding Ground Control IP addresses only applies if UDP is selected for Telemetry or video",
+    "buttons": {
+      "addDestinations": "Add Destination"
     },
-    "destinationModule":{
-      "name":"name",
-      "host":"Host",
-      "telemPort":"Telem Port",
-      "videoPort":"Video Port",
-      "videoSwitch":"Video",
-      "telemSwitch":"Telemetry",
-      "portCheck":"Portcheck",
-      "removeModule":"remove"
+    "destinationModule": {
+      "name": "name",
+      "host": "Host",
+      "telemPort": "Telem Port",
+      "videoPort": "Video Port",
+      "videoSwitch": "Video",
+      "telemSwitch": "Telemetry",
+      "portCheck": "Portcheck",
+      "removeModule": "remove"
     }
   },
-  "modem":{
-    "title":"Modem",
-    "subTitle":"Modem configuration",
-    "enableText":"Enable cellular Modem? <br /> <b>Modem Manager</b> is used to establish a carrier connection. You can find all supported devices",
-    "model":"Model",
-    "modelDescription":"Choose between Stick or HiLink<br /> Example: <code>E3276H</code> (Ending character)<br /> HiLink modems uses embedded software to connect LTE / 4G network",
-    "hilinkInterface":"Interface",
-    "hilinkInterfaceDescription":"Set the HiLink modem interface name. This is normally <code>eth1</code> for RPI 2/3 and <code>eth0</code> for Pi0w.<br /> LED will turn green if the interface has proper internet access.",
-    "manager":"Model",
-    "managerDescription":"Select whether or not you want to use Network Manager or Modem Manager to manage the cell connection. Modems behaves diffrently, so test both options if you have issues. Its recommended to restart RPI if you change this option.",
-    "stickInterface":"Interface",
-    "stickInterfaceDescription":"Set the Stick modem interface name. This is normally either <code>wwan0</code> or <code>ppp0</code>. You can see the interface name by pressing the network button below.<br /> LED will turn green if the interface has proper internet access.",
-    "apn":"APN",
-    "apnDescription":"An Access Point Name is the name of a gateway between a GSM, GPRS, 3G or 4G mobile network and another computer network, frequently the public Internet",
-    "internalAddress":"Internal Address",
-    "internalAddressDescription":" USB modem interal Address. USB modems usually get <br /><code>cdc-wdm0</code>. You can specify another address if needed.",
-    "username":"Username",
-    "usernameDescription":"Most carriers dont require any username or password, but some might.",
-    "password":"Password",
-    "passwordDescription":"Most carriers dont require any username or password, but some might. ",
-    "pin":"PIN",
-    "pinDescription":"You sim pin code, unless you have disabled Pin Authorization",
-    "buttons":{
-      "connect":"Connect",
-      "disconnect":"Disconnect",
-      "availableModems":"Available modems",
-      "network":"Network",
-      "modemInformation":"Modem Information",
-      "connectionStatus":"Connection Status"
+  "modem": {
+    "title": "Modem",
+    "subTitle": "Modem configuration",
+    "enableText": "Enable cellular Modem? <br /> <b>Modem Manager</b> is used to establish a carrier connection. You can find all supported devices",
+    "model": "Model",
+    "modelDescription": "Choose between Stick or HiLink<br /> Example: <code>E3276H</code> (Ending character)<br /> HiLink modems uses embedded software to connect LTE / 4G network",
+    "hilinkInterface": "Interface",
+    "hilinkInterfaceDescription": "Set the HiLink modem interface name. This is normally <code>eth1</code> for RPI 2/3 and <code>eth0</code> for Pi0w.<br /> LED will turn green if the interface has proper internet access.",
+    "manager": "Model",
+    "managerDescription": "Select whether or not you want to use Network Manager or Modem Manager to manage the cell connection. Modems behaves diffrently, so test both options if you have issues. Its recommended to restart RPI if you change this option.",
+    "stickInterface": "Interface",
+    "stickInterfaceDescription": "Set the Stick modem interface name. This is normally either <code>wwan0</code> or <code>ppp0</code>. You can see the interface name by pressing the network button below.<br /> LED will turn green if the interface has proper internet access.",
+    "apn": "APN",
+    "apnDescription": "An Access Point Name is the name of a gateway between a GSM, GPRS, 3G or 4G mobile network and another computer network, frequently the public Internet",
+    "internalAddress": "Internal Address",
+    "internalAddressDescription": " USB modem interal Address. USB modems usually get <br /><code>cdc-wdm0</code>. You can specify another address if needed.",
+    "username": "Username",
+    "usernameDescription": "Most carriers dont require any username or password, but some might.",
+    "password": "Password",
+    "passwordDescription": "Most carriers dont require any username or password, but some might. ",
+    "pin": "PIN",
+    "pinDescription": "You sim pin code, unless you have disabled Pin Authorization",
+    "buttons": {
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "availableModems": "Available modems",
+      "network": "Network",
+      "modemInformation": "Modem Information",
+      "connectionStatus": "Connection Status"
     },
-    "tips":{
-      "title":"Troubleshooting Tips",
-      "1":"HiLink modems will act the same way as an Ethernet cable. RPI will be online as soon as you insert the modem",
-      "2":"You can find all supported modems here <a href='https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/'>https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/</a>"
+    "tips": {
+      "title": "Troubleshooting Tips",
+      "1": "HiLink modems will act the same way as an Ethernet cable. RPI will be online as soon as you insert the modem",
+      "2": "You can find all supported modems here <a href='https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/'>https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/</a>"
     }
   },
-  "dynamicDns":{
-    "title":"DNS",
-    "subTitle":"Dynamic DNS configuration",
-    "enableText":"Enable Dynamic DNS?",
-    "username":"Username",
-    "usernameDescription":"Your DNS host account username.",
-    "usernameHelpBlock":"Please enter a username",
-    "password":"Password",
-    "passwordDescription":"Your DNS host account password.",
-    "passwordHelpBlock":"Please enter a password",
-    "alias":"Alias",
-    "aliasDescription":"Dns Alias is your newly created address",
-    "aliasHelpBlock":"Please enter DNS alias",
-    "dnsSystem":"DNS System",
-    "dnsSystemDescription":"DNS System is created by your host",
-    "dnsSystemHelpBlock":"Please enter a DNS System",
-    "buttons":{
-      "connect":"Connect",
-      "disconnect":"Disconnect"
+  "dynamicDns": {
+    "title": "DNS",
+    "subTitle": "Dynamic DNS configuration",
+    "enableText": "Enable Dynamic DNS?",
+    "username": "Username",
+    "usernameDescription": "Your DNS host account username.",
+    "usernameHelpBlock": "Please enter a username",
+    "password": "Password",
+    "passwordDescription": "Your DNS host account password.",
+    "passwordHelpBlock": "Please enter a password",
+    "alias": "Alias",
+    "aliasDescription": "Dns Alias is your newly created address",
+    "aliasHelpBlock": "Please enter DNS alias",
+    "dnsSystem": "DNS System",
+    "dnsSystemDescription": "DNS System is created by your host",
+    "dnsSystemHelpBlock": "Please enter a DNS System",
+    "buttons": {
+      "connect": "Connect",
+      "disconnect": "Disconnect"
     },
-    "tips":{
-      "title":"Troubleshooting Tips",
-      "1":"DDNS or DynamicDNS is a way to link a web url to a IP address. Its convenient if you want to connect remote partner with a dynamic IP.",
-      "2":"You can use free vendors such as <a href='https://www.noip.com/'>https://www.noip.com</a>, <a href='https://www.duckdns.org/'>https://www.duckdns.org/</a>"
+    "tips": {
+      "title": "Troubleshooting Tips",
+      "1": "DDNS or DynamicDNS is a way to link a web url to a IP address. Its convenient if you want to connect remote partner with a dynamic IP.",
+      "2": "You can use free vendors such as <a href='https://www.noip.com/'>https://www.noip.com</a>, <a href='https://www.duckdns.org/'>https://www.duckdns.org/</a>"
     }
   },
-  "camera":{
-    "title":"Camera",
-    "subTitle":"Camera configuration",
-    "cameraType":"Camera Type",
-    "cameraHelpBlock":"Select camera type",
-    "protocol":"Protocol",
-    "protocolDescription":"Select UDP or TCP.",
-    "tcpHost":"TCP Host",
-    "tcpHostDescription":" Add TCP Host IP address. This should be the Raspberry Pi ipadress.",
-    "cameraFlip":"Camera Flip",
-    "cameraFlipDescription":" Select the image orientation. Horizontal or vertical flip.",
-    "resolution":"Resolution.",
-    "resolutionDescription":"Select video resolution.",
-    "width":"Width",
-    "height":"Height",
-    "bitrate":"Bitrate",
-    "bitrateHelpBlock":"Bitrate",
-    "framesPrSecond":"Frames Pr.second",
-    "framesPrSecondHelpBlock":"FPS",
-    "buttons":{
-      "start":"Start Camera",
-      "stop":"Stop Camera",
-      "logFile":"LogFile"
+  "camera": {
+    "title": "Camera",
+    "subTitle": "Camera configuration",
+    "cameraType": "Camera Type",
+    "cameraHelpBlock": "Select camera type",
+    "protocol": "Protocol",
+    "protocolDescription": "Select UDP or TCP.",
+    "tcpHost": "TCP Host",
+    "tcpHostDescription": " Add TCP Host IP address. This should be the Raspberry Pi ipadress.",
+    "cameraFlip": "Camera Flip",
+    "cameraFlipDescription": " Select the image orientation. Horizontal or vertical flip.",
+    "resolution": "Resolution.",
+    "resolutionDescription": "Select video resolution.",
+    "width": "Width",
+    "height": "Height",
+    "bitrate": "Bitrate",
+    "bitrateHelpBlock": "Bitrate",
+    "framesPrSecond": "Frames Pr.second",
+    "framesPrSecondHelpBlock": "FPS",
+    "buttons": {
+      "start": "Start Camera",
+      "stop": "Stop Camera",
+      "logFile": "LogFile"
     },
-    "tips":{
-      "title":"Tips",
-      "1":"Select <b>custom pipeline</b> and add this code to generate a <b>test video stream</b>. Nice to test without a camera connected. Change the IP and Port to match your settings<br /> <code>gst-launch-1.0 videotestsrc ! x264enc ! video/x-h264, stream-format=byte-stream ! rtph264pay ! udpsink host=192.168.1.100 port=5600</code>",
-      "2":"<b>Mission planner</b> and <b>QGroundControl</b> will automatically detect video stream on port <code>5600</code>",
-      "3":"To receive <b>UDP</b> video feed on a Windows computer, install gstreamer and use this pipeline. Remember to change the port to match your setting.<br /><code>gst-launch-1.0 -v udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code>",
-      "4":"To receive <b>TCP</b> (Only for PiCam) video on Windows computer, install gstreamer and use this pipeline. Remember to change the port and host to match your setting.<br /> <code>gst-launch-1.0 -v tcpclientsrc host='Pi-IP' port=5600 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code>"
+    "tips": {
+      "title": "Tips",
+      "1": "Select <b>custom pipeline</b> and add this code to generate a <b>test video stream</b>. Nice to test without a camera connected. Change the IP and Port to match your settings<br /> <code>gst-launch-1.0 videotestsrc ! x264enc ! video/x-h264, stream-format=byte-stream ! rtph264pay ! udpsink host=192.168.1.100 port=5600</code>",
+      "2": "<b>Mission planner</b> and <b>QGroundControl</b> will automatically detect video stream on port <code>5600</code>",
+      "3": "To receive <b>UDP</b> video feed on a Windows computer, install gstreamer and use this pipeline. Remember to change the port to match your setting.<br /><code>gst-launch-1.0 -v udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code>",
+      "4": "To receive <b>TCP</b> (Only for PiCam) video on Windows computer, install gstreamer and use this pipeline. Remember to change the port and host to match your setting.<br /> <code>gst-launch-1.0 -v tcpclientsrc host='Pi-IP' port=5600 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code>"
     }
   },
-  "vpn":{
-    "title":"VPN",
-    "subTitle":"Virtual Private Network",
-    "enableText":"Enable VPN?",
-    "services":"Services",
-    "servicesDescription":"Select from the dropdown menu.",
-    "configuration":"Configuration",
-    "configurationDescription":"Your <b>openvpn</b> configuration file.<br /> See VPN help section on how to generate / download this file",
-    "openVpnfileUploadText":"Drop your ovpn file here",
-    "openVpnDeleteFile":"Delete File",
-    "buttons":{
-      "connect":"Connect",
-      "disconnect":"Disconnect",
-      "viewVpnInterface":"View VPN Interface",
-      "logfile":"Logfile",
-      "interfaces":"Interfaces",
-      "ZTconnectionInfo":"ZeroTier Con Info",
-      "ZTlistPeers":"ZeroTier list peers"
+  "vpn": {
+    "title": "VPN",
+    "subTitle": "Virtual Private Network",
+    "enableText": "Enable VPN?",
+    "services": "Services",
+    "servicesDescription": "Select from the dropdown menu.",
+    "configuration": "Configuration",
+    "configurationDescription": "Your <b>openvpn</b> configuration file.<br /> See VPN help section on how to generate / download this file",
+    "openVpnfileUploadText": "Drop your ovpn file here",
+    "openVpnDeleteFile": "Delete File",
+    "buttons": {
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "viewVpnInterface": "View VPN Interface",
+      "logfile": "Logfile",
+      "interfaces": "Interfaces",
+      "ZTconnectionInfo": "ZeroTier Con Info",
+      "ZTlistPeers": "ZeroTier list peers"
     },
-    "tips":{
-      "title":"Tips",
-      "1":"Its highly recommended to use ZeroTier VPN. Very easy to configure and its using the NAT travesal technic. ZeroTier will try to esablish a direct connection without using 3rd party server. This will reduce the latency.",
-      "2":" Google provides an easy way to launch a openvpn server. Read more here <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
+    "tips": {
+      "title": "Tips",
+      "1": "Its highly recommended to use ZeroTier VPN. Very easy to configure and its using the NAT travesal technic. ZeroTier will try to esablish a direct connection without using 3rd party server. This will reduce the latency.",
+      "2": " Google provides an easy way to launch a openvpn server. Read more here <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
+    }
+  },
+  "settings":{
+    "license":{
+      "title":"Application License",
+      "subTitle":"License key overview",
+      "licenseKey":"License key",
+      "changeKey":"change",
+      "licenseStatus":"License Status",
+      "allowedDevices":"Allowed Devices",
+      "remainingDevices":"Remaining Devices",
+      "freeUpSlots":"Free up slots",
+      "currentDevice":"(current)",
+      "unregisterDevice":"unregister",
+      "registeredUser":"Registered name",
+      "activationDate":"Activation Date",
+      "expirationDate":"Expiration Date",
+      "raspberryVersion":"Raspberry Version",
+      "orderId":"Order ID",
+      "supportText":"Please feel free to contact us if you need any further information",
+      "buttons":{
+        "validate":"Validate",
+        "cancel":"Cancel"
+      }
+    },
+    "applicationVersion":{
+      "title":"Application Version",
+      "subTitle":"Application overview",
+      "currentVersion":"Current Version",
+      "changeLog":"Changelog",
+      "application":"Application",
+      "rollbackVersion":"Rollback Previous Version",
+      "rollbackText":"Rollback to",
+      "newVersionAvailable":"New Version Availabl",
+      "upgradeSuccess":"Installation complete, please refresh the page.",
+      "newversionExist":"You already have the latest version",
+      "refreshBrowser":"Refresh Browser",
+      "buttons":{
+        "downgradeNow":"Downgrade Now!",
+        "checkForUpdates":"Check for update",
+        "updateNow":"Update Now!"
+      }
+    },
+    "applicationSettings":{
+      "title":"Settings",
+      "darkTheme":"Dark Theme",
+      "serverPort":"Server Port",
+      "serverPortHelpBLock":"Default port 80",
+      "applicationLanguage":"Application Language",
+      "applicationLanguageHelpBlock":"Set your default language",
+      "buttons":{
+        "changePort":"Change"
+      }
     }
   }
 }
