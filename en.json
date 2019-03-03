@@ -300,8 +300,8 @@
       "newVersionAvailable":"New Version Availabl",
       "upgradeSuccess":"Installation complete, please refresh the page.",
       "newversionExist":"You already have the latest version",
-      "refreshBrowser":"Refresh Browser",
       "buttons":{
+        "refreshBrowser":"Refresh Browser",
         "downgradeNow":"Downgrade Now!",
         "checkForUpdates":"Check for update",
         "updateNow":"Update Now!"
@@ -310,6 +310,7 @@
     "applicationSettings":{
       "title":"Settings",
       "darkTheme":"Dark Theme",
+      "serverMessages":"Server Messages",
       "serverPort":"Server Port",
       "serverPortHelpBLock":"Default port 80",
       "applicationLanguage":"Application Language",
