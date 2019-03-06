@@ -314,6 +314,7 @@
       "serverPort":"Server Port",
       "serverPortHelpBLock":"Default port 80",
       "applicationLanguage":"Application Language",
+      "applicationLanguageDescription":"Want to contribute? Read <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a>",
       "applicationLanguageHelpBlock":"Set your default language",
       "buttons":{
         "changePort":"Change"
