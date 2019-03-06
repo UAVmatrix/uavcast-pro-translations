@@ -314,6 +314,7 @@
       "serverPort":"服务器端口",
       "serverPortHelpBLock":"默认端口80",
       "applicationLanguage":"语言",
+      "applicationLanguageDescription":"想要贡献? 读 <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>这里</a>",
       "applicationLanguageHelpBlock":"设置语言",
       "buttons":{
         "changePort":"更改"
