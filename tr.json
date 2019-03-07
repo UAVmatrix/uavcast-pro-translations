@@ -47,7 +47,7 @@
         "autostart": {
           "title": "Otomatik Başlatmayı Etkinlelştir",
           "information": "Raspberry açıldığında  UAVcast otomatik olarak çalışmaya başlayacak .",
-          "enable": "Otomatik Başlangıcı Akfitleştir",
+          "enable": "Otomatik Başlangıcı Aktifleştir",
           "disable": "Otomatiği Başlangıcı Kapat"
         }
       }
@@ -60,17 +60,17 @@
       },
       "modem": {
         "title": "Modem",
-        "text1": "Akfit:",
+        "text1": "Aktif:",
         "text2": "APN:"
       },
       "camera": {
         "title": "Kamera",
-        "text1": "Akfit:",
+        "text1": "Aktif:",
         "text2": "APN:"
       },
       "dns": {
         "title": "Raspberry Dinamik DNS",
-        "text1": "Akfit:",
+        "text1": "Aktif:",
         "text2": "Rumuz:"
       }
     },
