@@ -320,5 +320,53 @@
         "changePort":"更改"
       }
     }
+  },
+  "raspberry": {
+    "title": "Raspberry",
+    "rebootNotification": {
+      "title": "Do you want to Restart Raspberry PI",
+      "content": "Make sure you have saved everything!",
+      "cancel": "Cancel",
+      "approve": "Reboot Now"
+    },
+    "shutdownNotification": {
+      "title": "Do you want to shutdown Raspberry PI",
+      "content": "Make sure you have saved everything!",
+      "cancel": "Cancel",
+      "approve": "Shutdown Now"
+    },
+    "buttons": {
+      "reboot": "Reboot",
+      "shutdown": "Shutdown",
+      "usbDevices":"USB devices",
+      "kernelMessages":"Kernel Messages",
+      "network":"Network",
+      "speedTest":"SpeedTest",
+      "process":"Processes",
+      "sendCommand":"Send Command"
+    },
+    "customTerminal":{
+      "title":"Custom Terminal",
+      "helpText":"example, type <code>ls</code> to list all files in the main directory"
+    },
+    "tips":{
+      "title":"Troubleshooting Tips",
+      "1":"If you encounter any problems then please Download log files and contact then application owner"
+    }
+  },
+  "uavcast":{
+    "title":"LogFiles",
+    "buttons":{
+      "uavcast":"UAVcast",
+      "dynDns":"DynDNS",
+      "video":"Video",
+      "telemetry":"Telemetry",
+      "navio":"Navio",
+      "downloadLogfiles":"Download all Logfiles"
+    },
+    "tips":{
+      "title":"Troubleshooting Tips",
+      "1":"If you encounter any problems then please Download log files and post them at <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
+    }
   }
 }

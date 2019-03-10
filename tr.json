@@ -1,7 +1,7 @@
 {
-  "headerLinks":{
-    "community":"Topluluk",
-    "documentation":"Dökümanlar"
+  "headerLinks": {
+    "community": "Topluluk",
+    "documentation": "Dökümanlar"
   },
   "sidebarLinks": {
     "categories": {
@@ -16,11 +16,11 @@
         "vpn": "VPN"
       },
       "tools": {
-        "title":"Araçlar",
+        "title": "Araçlar",
         "raspberry": "Raspberry"
       },
       "application": {
-        "title":"Uygulamalar",
+        "title": "Uygulamalar",
         "settings": "Ayarlar",
         "version": "Versiyon"
       }
@@ -266,59 +266,107 @@
       "2": " Google, bir openvpn sunucusunu başlatmak için kolay bir yol sağlar. Burada daha fazla okuyun <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
     }
   },
-  "settings":{
-    "license":{
-      "title":"Uygulama lisansı",
-      "subTitle":"Lisans anahtarı hakkında",
-      "licenseKey":"Lisans anahtarı",
-      "changeKey":"değiştir",
-      "licenseStatus":"Lisans durumu",
-      "allowedDevices":"İzin verilen cihazlar",
-      "remainingDevices":"Kalan cihazlar",
-      "freeUpSlots":"Uygun alanlar",
-      "currentDevice":"(mevcut)",
-      "unregisterDevice":"Kayıttan çık",
-      "registeredUser":"Kayıt İsmi",
-      "activationDate":"Üyelik Başlangıç Tarihi",
-      "expirationDate":"Üyelik Bitiş Tarihi",
-      "raspberryVersion":"Raspberry Versiyonu",
-      "orderId":"Sipariş ID",
-      "supportText":"Herhangi bir bilgi ihtiyacında lütfen bize danışın",
-      "buttons":{
-        "validate":"Doğrula",
-        "cancel":"İptal Et"
+  "settings": {
+    "license": {
+      "title": "Uygulama lisansı",
+      "subTitle": "Lisans anahtarı hakkında",
+      "licenseKey": "Lisans anahtarı",
+      "changeKey": "değiştir",
+      "licenseStatus": "Lisans durumu",
+      "allowedDevices": "İzin verilen cihazlar",
+      "remainingDevices": "Kalan cihazlar",
+      "freeUpSlots": "Uygun alanlar",
+      "currentDevice": "(mevcut)",
+      "unregisterDevice": "Kayıttan çık",
+      "registeredUser": "Kayıt İsmi",
+      "activationDate": "Üyelik Başlangıç Tarihi",
+      "expirationDate": "Üyelik Bitiş Tarihi",
+      "raspberryVersion": "Raspberry Versiyonu",
+      "orderId": "Sipariş ID",
+      "supportText": "Herhangi bir bilgi ihtiyacında lütfen bize danışın",
+      "buttons": {
+        "validate": "Doğrula",
+        "cancel": "İptal Et"
       }
     },
-    "applicationVersion":{
-      "title":"Uygulama Versiyonu",
-      "subTitle":"Uygulama Hakkında",
-      "currentVersion":"Mevcut versiyona",
-      "changeLog":"Yenilikler",
-      "application":"Uygulama",
-      "rollbackVersion":"Önceki versiyona geri dön",
-      "rollbackText":"Geri dönülecek versiyon",
-      "newVersionAvailable":"Yeni versiyon mevcut!",
-      "upgradeSuccess":"Yükleme tamamlandı. Lütfen tarayıcı sayfanızı yenileyiniz.",
-      "newversionExist":"Mevcut en güncel versiyona sahipsiniz",
-      "buttons":{
-        "refreshBrowser":"Tarayıcıyı yenileyin",
-        "downgradeNow":"Eski versiyona dön!",
-        "checkForUpdates":"Güncellemeleri Kontrol Et",
-        "updateNow":"Şimdi Güncelle!"
+    "applicationVersion": {
+      "title": "Uygulama Versiyonu",
+      "subTitle": "Uygulama Hakkında",
+      "currentVersion": "Mevcut versiyona",
+      "changeLog": "Yenilikler",
+      "application": "Uygulama",
+      "rollbackVersion": "Önceki versiyona geri dön",
+      "rollbackText": "Geri dönülecek versiyon",
+      "newVersionAvailable": "Yeni versiyon mevcut!",
+      "upgradeSuccess": "Yükleme tamamlandı. Lütfen tarayıcı sayfanızı yenileyiniz.",
+      "newversionExist": "Mevcut en güncel versiyona sahipsiniz",
+      "buttons": {
+        "refreshBrowser": "Tarayıcıyı yenileyin",
+        "downgradeNow": "Eski versiyona dön!",
+        "checkForUpdates": "Güncellemeleri Kontrol Et",
+        "updateNow": "Şimdi Güncelle!"
       }
     },
-    "applicationSettings":{
-      "title":"Ayarlar",
-      "darkTheme":"Koyu Tema",
-      "serverMessages":"Server Mesajları",
-      "serverPort":"Sunucu Portu",
-      "serverPortHelpBLock":"Varsayılan port 80",
-      "applicationLanguage":"Uygulama Dili",
-      "applicationLanguageDescription":"Destek olmak ister misiniz? Read <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a> Türkçe seçeneği Ozan ERBASAN tarafından çevrilmiştir.",
-      "applicationLanguageHelpBlock":"Varsayınal dil seçeneği",
-      "buttons":{
-        "changePort":"Değiştir"
+    "applicationSettings": {
+      "title": "Ayarlar",
+      "darkTheme": "Koyu Tema",
+      "serverMessages": "Server Mesajları",
+      "serverPort": "Sunucu Portu",
+      "serverPortHelpBLock": "Varsayılan port 80",
+      "applicationLanguage": "Uygulama Dili",
+      "applicationLanguageDescription": "Destek olmak ister misiniz? Read <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a> Türkçe seçeneği Ozan ERBASAN tarafından çevrilmiştir.",
+      "applicationLanguageHelpBlock": "Varsayınal dil seçeneği",
+      "buttons": {
+        "changePort": "Değiştir"
       }
+    }
+  },
+  "raspberry": {
+    "title": "Raspberry",
+    "rebootNotification": {
+      "title": "Do you want to Restart Raspberry PI",
+      "content": "Make sure you have saved everything!",
+      "cancel": "Cancel",
+      "approve": "Reboot Now"
+    },
+    "shutdownNotification": {
+      "title": "Do you want to shutdown Raspberry PI",
+      "content": "Make sure you have saved everything!",
+      "cancel": "Cancel",
+      "approve": "Shutdown Now"
+    },
+    "buttons": {
+      "reboot": "Reboot",
+      "shutdown": "Shutdown",
+      "usbDevices": "USB devices",
+      "kernelMessages": "Kernel Messages",
+      "network": "Network",
+      "speedTest": "SpeedTest",
+      "process": "Processes",
+      "sendCommand": "Send Command"
+    },
+    "customTerminal": {
+      "title": "Custom Terminal",
+      "helpText": "example, type <code>ls</code> to list all files in the main directory"
+    },
+    "tips": {
+      "title": "Troubleshooting Tips",
+      "1": "If you encounter any problems then please Download log files and contact then application owner"
+    }
+  },
+  "uavcast": {
+    "title": "LogFiles",
+    "buttons": {
+      "uavcast": "UAVcast",
+      "dynDns": "DynDNS",
+      "video": "Video",
+      "telemetry": "Telemetry",
+      "navio": "Navio",
+      "downloadLogfiles": "Download all Logfiles"
+    },
+    "tips": {
+      "title": "Troubleshooting Tips",
+      "1": "If you encounter any problems then please Download log files and post them at <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
     }
   }
 }

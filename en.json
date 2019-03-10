@@ -1,7 +1,7 @@
 {
-  "headerLinks":{
-    "community":"Community",
-    "documentation":"Documentation"
+  "headerLinks": {
+    "community": "Community",
+    "documentation": "Documentation"
   },
   "sidebarLinks": {
     "categories": {
@@ -16,11 +16,11 @@
         "vpn": "VPN"
       },
       "tools": {
-        "title":"Tools",
+        "title": "Tools",
         "raspberry": "Raspberry"
       },
       "application": {
-        "title":"Application",
+        "title": "Application",
         "settings": "Settings",
         "version": "Version"
       }
@@ -266,59 +266,107 @@
       "2": " Google provides an easy way to launch a openvpn server. Read more here <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
     }
   },
-  "settings":{
-    "license":{
-      "title":"Application License",
-      "subTitle":"License key overview",
-      "licenseKey":"License key",
-      "changeKey":"change",
-      "licenseStatus":"License Status",
-      "allowedDevices":"Allowed Devices",
-      "remainingDevices":"Remaining Devices",
-      "freeUpSlots":"Free up slots",
-      "currentDevice":"(current)",
-      "unregisterDevice":"unregister",
-      "registeredUser":"Registered name",
-      "activationDate":"Activation Date",
-      "expirationDate":"Expiration Date",
-      "raspberryVersion":"Raspberry Version",
-      "orderId":"Order ID",
-      "supportText":"Please feel free to contact us if you need any further information",
-      "buttons":{
-        "validate":"Validate",
-        "cancel":"Cancel"
+  "settings": {
+    "license": {
+      "title": "Application License",
+      "subTitle": "License key overview",
+      "licenseKey": "License key",
+      "changeKey": "change",
+      "licenseStatus": "License Status",
+      "allowedDevices": "Allowed Devices",
+      "remainingDevices": "Remaining Devices",
+      "freeUpSlots": "Free up slots",
+      "currentDevice": "(current)",
+      "unregisterDevice": "unregister",
+      "registeredUser": "Registered name",
+      "activationDate": "Activation Date",
+      "expirationDate": "Expiration Date",
+      "raspberryVersion": "Raspberry Version",
+      "orderId": "Order ID",
+      "supportText": "Please feel free to contact us if you need any further information",
+      "buttons": {
+        "validate": "Validate",
+        "cancel": "Cancel"
       }
     },
-    "applicationVersion":{
-      "title":"Application Version",
-      "subTitle":"Application overview",
-      "currentVersion":"Current Version",
-      "changeLog":"Changelog",
-      "application":"Application",
-      "rollbackVersion":"Rollback Previous Version",
-      "rollbackText":"Rollback to",
-      "newVersionAvailable":"New Version Availabl",
-      "upgradeSuccess":"Installation complete, please refresh the page.",
-      "newversionExist":"You already have the latest version",
-      "buttons":{
-        "refreshBrowser":"Refresh Browser",
-        "downgradeNow":"Downgrade Now!",
-        "checkForUpdates":"Check for update",
-        "updateNow":"Update Now!"
+    "applicationVersion": {
+      "title": "Application Version",
+      "subTitle": "Application overview",
+      "currentVersion": "Current Version",
+      "changeLog": "Changelog",
+      "application": "Application",
+      "rollbackVersion": "Rollback Previous Version",
+      "rollbackText": "Rollback to",
+      "newVersionAvailable": "New Version Availabl",
+      "upgradeSuccess": "Installation complete, please refresh the page.",
+      "newversionExist": "You already have the latest version",
+      "buttons": {
+        "refreshBrowser": "Refresh Browser",
+        "downgradeNow": "Downgrade Now!",
+        "checkForUpdates": "Check for update",
+        "updateNow": "Update Now!"
       }
     },
-    "applicationSettings":{
-      "title":"Settings",
-      "darkTheme":"Dark Theme",
-      "serverMessages":"Server Messages",
-      "serverPort":"Server Port",
-      "serverPortHelpBLock":"Default port 80",
-      "applicationLanguage":"Application Language",
-      "applicationLanguageDescription":"Want to contribute? Read <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a>",
-      "applicationLanguageHelpBlock":"Set your default language",
-      "buttons":{
-        "changePort":"Change"
+    "applicationSettings": {
+      "title": "Settings",
+      "darkTheme": "Dark Theme",
+      "serverMessages": "Server Messages",
+      "serverPort": "Server Port",
+      "serverPortHelpBLock": "Default port 80",
+      "applicationLanguage": "Application Language",
+      "applicationLanguageDescription": "Want to contribute? Read <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a>",
+      "applicationLanguageHelpBlock": "Set your default language",
+      "buttons": {
+        "changePort": "Change"
       }
+    }
+  },
+  "raspberry": {
+    "title": "Raspberry",
+    "rebootNotification": {
+      "title": "Do you want to Restart Raspberry PI",
+      "content": "Make sure you have saved everything!",
+      "cancel": "Cancel",
+      "approve": "Reboot Now"
+    },
+    "shutdownNotification": {
+      "title": "Do you want to shutdown Raspberry PI",
+      "content": "Make sure you have saved everything!",
+      "cancel": "Cancel",
+      "approve": "Shutdown Now"
+    },
+    "buttons": {
+      "reboot": "Reboot",
+      "shutdown": "Shutdown",
+      "usbDevices":"USB devices",
+      "kernelMessages":"Kernel Messages",
+      "network":"Network",
+      "speedTest":"SpeedTest",
+      "process":"Processes",
+      "sendCommand":"Send Command"
+    },
+    "customTerminal":{
+      "title":"Custom Terminal",
+      "helpText":"example, type <code>ls</code> to list all files in the main directory"
+    },
+    "tips":{
+      "title":"Troubleshooting Tips",
+      "1":"If you encounter any problems then please Download log files and contact then application owner"
+    }
+  },
+  "uavcast":{
+    "title":"LogFiles",
+    "buttons":{
+      "uavcast":"UAVcast",
+      "dynDns":"DynDNS",
+      "video":"Video",
+      "telemetry":"Telemetry",
+      "navio":"Navio",
+      "downloadLogfiles":"Download all Logfiles"
+    },
+    "tips":{
+      "title":"Troubleshooting Tips",
+      "1":"If you encounter any problems then please Download log files and post them at <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
     }
   }
 }
