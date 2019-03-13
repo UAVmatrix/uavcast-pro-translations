@@ -92,7 +92,7 @@
         "free": "Boş Alan"
       },
       "network": {
-        "title": "Network İstatistikleri",
+        "title": "Ağ İstatistikleri",
         "subTitle": "Her 10 saniyede güncellenir.",
         "interface": "Arayüz",
         "received": "Alındı",
@@ -132,7 +132,7 @@
   "groundControlStation": {
     "title": "Yer Kontrol İstasyonu",
     "subTitle": "Yer Kontrol İstasyonu IP adresini ve portu ekleyin.",
-    "subTitle1": "<b>NOTE!</b> Zemin Kontrolü IP adresleri eklemek sadece Telemetri veya video için UDP seçildiğinde uygulanır",
+    "subTitle1": "<b>DİKKAT!</b> Zemin Kontrolü IP adresleri eklemek sadece Telemetri veya video için UDP seçildiğinde uygulanır",
     "buttons": {
       "addDestinations": "Hedef Ekleyin"
     },
@@ -173,7 +173,7 @@
       "connect": "Bağlan",
       "disconnect": "Bağlantıyı sonlandır",
       "availableModems": "Erişilebilir Modemler",
-      "network": "Network",
+      "network": "Ağ",
       "modemInformation": "Modem Bilgisi",
       "connectionStatus": "Bağlantı Durumu"
     },
@@ -238,7 +238,7 @@
       "1": "<b> Özel bağlantı hattı </b> 'nı seçin ve bir <b> test video akışı </b> oluşturmak için bu kodu ekleyin. Bağlı bir kamera olmadan test etmek güzel. Ayarlarınıza uygun IP ve Bağlantı Noktasını değiştirin <br /> <code> gst-launch-1.0 videotestsrc! x264enc! video / x-h264, akış biçimi = bayt akışı! rtph264pay! udpsink ana bilgisayarı = 192.168.1.100 bağlantı noktası = 5600 </code>",
       "2": "<b>Mission planner</b> ve <b>QGroundControl</b> otomatik olarak <code>5600</code> hattındaki yayınınızı algılayacaktır.",
       "3": "<b>UDP</b> yayınını Windows bilgisayarda almak için,Gstreamer yükleyin ve bu bağlantı hattını kullanınız.Ayarlarınızı eşleştirmeyi unutmayınız.<br /><code>gst-launch-1.0 -v udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code>",
-      "4": "<b>TCP</b> (Only for PiCam) yayınını Windows bilgisayarda almak için,Gstreamer yükleyin ve bu bağlantı hattını kullanınız.Ayarlarınızı eşleştirmeyi unutmayınız. <br /> <code>gst-launch-1.0 -v tcpclientsrc host='Pi-IP' port=5600 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code>"
+      "4": "<b>TCP</b> (Sadece PiCam için) yayınını Windows bilgisayarda almak için,Gstreamer yükleyin ve bu bağlantı hattını kullanınız.Ayarlarınızı eşleştirmeyi unutmayınız. <br /> <code>gst-launch-1.0 -v tcpclientsrc host='Pi-IP' port=5600 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code>"
     }
   },
   "vpn": {
@@ -314,7 +314,7 @@
       "serverPort": "Sunucu Portu",
       "serverPortHelpBLock": "Varsayılan port 80",
       "applicationLanguage": "Uygulama Dili",
-      "applicationLanguageDescription": "Destek olmak ister misiniz? Read <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a> Türkçe seçeneği Ozan ERBASAN tarafından çevrilmiştir.",
+      "applicationLanguageDescription": "Destek olmak ister misiniz?  <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>buradan</a> Türkçe seçeneği Ozan ERBASAN tarafından çevrilmiştir.",
       "applicationLanguageHelpBlock": "Varsayınal dil seçeneği",
       "buttons": {
         "changePort": "Değiştir"
@@ -324,49 +324,49 @@
   "raspberry": {
     "title": "Raspberry",
     "rebootNotification": {
-      "title": "Do you want to Restart Raspberry PI",
-      "content": "Make sure you have saved everything!",
-      "cancel": "Cancel",
-      "approve": "Reboot Now"
+      "title": "Raspberry PI'yi yeniden başlatmak istiyor musunuz?",
+      "content": "Her şeyi kaydettiğinizden emin olun!",
+      "cancel": "İptal et",
+      "approve": "Şimdi yeniden başlat."
     },
     "shutdownNotification": {
-      "title": "Do you want to shutdown Raspberry PI",
-      "content": "Make sure you have saved everything!",
-      "cancel": "Cancel",
-      "approve": "Shutdown Now"
+      "title": "Raspberry PI'yi kapatmak istiyor musunuz?",
+      "content": "Her şeyi kaydettiğinizden emin olun!",
+      "cancel": "İptal et",
+      "approve": "Şimdi kapat"
     },
     "buttons": {
-      "reboot": "Reboot",
-      "shutdown": "Shutdown",
-      "usbDevices": "USB devices",
-      "kernelMessages": "Kernel Messages",
-      "network": "Network",
-      "speedTest": "SpeedTest",
-      "process": "Processes",
-      "sendCommand": "Send Command"
+      "reboot": "Yeniden başlat",
+      "shutdown": "Kapat",
+      "usbDevices": "USB cihazları",
+      "kernelMessages": "Kernel mesajları",
+      "network": "Ağ",
+      "speedTest": "Hız Testi",
+      "process": "İşlem",
+      "sendCommand": "Komut Gönder"
     },
     "customTerminal": {
-      "title": "Custom Terminal",
-      "helpText": "example, type <code>ls</code> to list all files in the main directory"
+      "title": "Özel Terminal",
+      "helpText": "Örnek: <code>ls</code> yazarak ana dizindeki tüm dosyaları görüntüleyiebilirsiniz."
     },
     "tips": {
-      "title": "Troubleshooting Tips",
-      "1": "If you encounter any problems then please Download log files and contact then application owner"
+      "title": "Sorun giderme önerileri",
+      "1": "Eğer herhangi bir sorun ile karşılaşırsanız lütfen kayıt dosyalarını indirip uygulama sahibi ile iletişime geçiniz."
     }
   },
   "uavcast": {
-    "title": "LogFiles",
+    "title": "Kayıt Dosyaları",
     "buttons": {
       "uavcast": "UAVcast",
       "dynDns": "DynDNS",
       "video": "Video",
-      "telemetry": "Telemetry",
+      "telemetry": "Telemetri",
       "navio": "Navio",
-      "downloadLogfiles": "Download all Logfiles"
+      "downloadLogfiles": "Tüm kayıt dosyalarını indir."
     },
     "tips": {
-      "title": "Troubleshooting Tips",
-      "1": "If you encounter any problems then please Download log files and post them at <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
+      "title": "Sorun giderme önerileri",
+      "1": "Eğer herhangi bir sorun ile karşılaşırsanız lütfen kayıt dosyalarını indirip uygulama sahibi ile iletişime geçiniz. Kayıt dosyalarınızı <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a> adresine gönderebilirsiniz."
     }
   }
 }
