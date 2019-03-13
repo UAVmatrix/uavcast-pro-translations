@@ -297,7 +297,7 @@
       "application": "Application",
       "rollbackVersion": "Rollback Previous Version",
       "rollbackText": "Rollback to",
-      "newVersionAvailable": "New Version Availabl",
+      "newVersionAvailable": "New Version Available",
       "upgradeSuccess": "Installation complete, please refresh the page.",
       "newversionExist": "You already have the latest version",
       "buttons": {
