@@ -119,7 +119,7 @@
       "stop": "Zatrzymaj telemetrię",
       "logfile": "Plik dziennika"
     },
-    "Wskazówki": {
+    "tips": {
       "1": "Bardzo ważne jest aby RPI i kontroler lotu miały wspólną masę, od tego zależy poprawna komunikacja.",
       "2": "W przypadku problemów z kablem USB upewnij się, że odłączyłeś inne urządzenia USB od RPI. Niektóre urządzenia USB mogą powodować konflikty."
     },
@@ -177,7 +177,7 @@
       "modemInformation": "Informacja o modemie",
       "connectionStatus": "Status połączenia"
     },
-    "Wskazówki": {
+    "tips": {
       "title": "Wskazówki dotyczące rozwiązywania problemów",
       "1": "Modemy HiLink będą działać tak samo, jak kabel Ethernet. RPI będzie online po włożeniu modemu",
       "2": "Tutaj znajdziesz wszystkie obsługiwane modemy <a href='https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/'>https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/</a>"
@@ -203,7 +203,7 @@
       "connect": "Połącz",
       "disconnect": "Rozłącz"
     },
-    "Wskazówki": {
+    "tips": {
       "title": "Wskazówki dotyczące rozwiązywania problemów",
       "1": "DDNS lub DynamicDNS to metoda na powiązanie adresu URL z adresem IP. Jest to wygodne narzędzie, jeśli chcesz połączyć zdalnego urządzenie z dynamicznym adresem IP.",
       "2": "Możesz użyć darmowych dostawców, takich jak <a href='https://www.noip.com/'>https://www.noip.com</a>, <a href='https://www.duckdns.org/'>https://www.duckdns.org/</a>"
@@ -233,7 +233,7 @@
       "stop": "Zatrzymaj kamerę",
       "logFile": "Plik dziennika"
     },
-    "Wskazówki": {
+    "tips": {
       "title": "Wskazówki",
       "1": "Wybierz <b>dowolny format</b> i dodaj kod aby wygenerować <b>obraz testowy</b>. Możesz to zrobić bez podłączonej kamery. Zmień adres IP oraz port tak aby pasowały do Twoich ustawień<br /> <code>gst-launch-1.0 videotestsrc ! x264enc ! video/x-h264, stream-format=byte-stream ! rtph264pay ! udpsink host=192.168.1.100 port=5600</code>",
       "2": "<b>Mission planner</b> and <b>QGroundControl</b> automatycznie odtworzą nadawany obraz na porcie <code>5600</code>",
@@ -260,7 +260,7 @@
       "ZTconnectionInfo": "ZeroTier informacja o połączeniu",
       "ZTlistPeers": "ZeroTier - lista podłączeń"
     },
-    "Wskazówki": {
+    "tips": {
       "title": "Wskazówki",
       "1": "Zaleca się używanie ZeroTier VPN ponieważ jest bardzo łatwy w konfiguracji i korzysta z techniki travesal NAT. ZeroTier spróbuje nawiązać bezpośrednie połączenie bez korzystania z zewnętrznego serwera co wpłynie na zmniejszone opóźnienie.",
       "2": "Google zapewnia łatwy sposób na uruchomienie serwera openvpn. Więcej, tutaj: <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
@@ -349,7 +349,7 @@
       "title":"Terminal",
       "pomocText":"przykład, wprowadź <code>ls</code> aby wyświetlić wszystkie pliki w katalogu"
     },
-    "Wskazówki":{
+    "tips":{
       "title":"Wskazówki dotyczące rozwiązywania problemów",
       "1":"Jeśli znajdziesz jakieś problemy, pobierz pliki dziennika, a następnie skontaktuj się z właścicielem aplikacji"
     }
@@ -364,7 +364,7 @@
       "navio":"Navio",
       "downloadLogfiles":"Pobierz wszystkie pliki dziennika"
     },
-    "Wskazówki":{
+    "tips":{
       "title":"Wskazówki dotyczące rozwiązywania problemów",
       "1":"Jeśli napotkasz jakieś problemy, pobierz pliki dziennika i opublikuj je na stronie <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
     }
