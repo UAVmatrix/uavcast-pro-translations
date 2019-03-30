@@ -322,51 +322,62 @@
     }
   },
   "raspberry": {
-    "title": "Raspberry",
-    "rebootNotification": {
-      "title": "Czy chcesz uruchomić ponownie Raspberry PI",
-      "content": "Upewnij się, że wszystko zachowałeś.",
-      "cancel": "Anuluj",
-      "approve": "Uruchom ponownie teraz"
+    "diagnostic": {
+      "title": "Raspberry",
+      "rebootNotification": {
+        "title": "Czy chcesz uruchomić ponownie Raspberry PI",
+        "content": "Upewnij się, że wszystko zachowałeś.",
+        "cancel": "Anuluj",
+        "approve": "Uruchom ponownie teraz"
+      },
+      "shutdownNotification": {
+        "title": "Czy chcesz wyłączyć Raspberry PI?",
+        "content": "Upewnij się, że wszystko zachowałeś.",
+        "cancel": "Anuluj",
+        "approve": "Wyłącz teraz"
+      },
+      "buttons": {
+        "reboot": "Uruchom ponownie",
+        "shutdown": "Wyłącz",
+        "usbDevices": "Urządzenia USB",
+        "kernelMessages": "Wiadomości Kernel",
+        "network": "Sieć",
+        "speedTest": "Test prędkości",
+        "process": "Procesy",
+        "sendCommand": "Wyślij komendę"
+      },
+      "customTerminal": {
+        "title": "Terminal",
+        "helpText": "przykład, wprowadź <code>ls</code> aby wyświetlić wszystkie pliki w katalogu"
+      },
+      "tips": {
+        "title": "Wskazówki dotyczące rozwiązywania problemów",
+        "1": "Jeśli znajdziesz jakieś problemy, pobierz pliki dziennika, a następnie skontaktuj się z właścicielem aplikacji"
+      }
     },
-    "shutdownNotification": {
-      "title": "Czy chcesz wyłączyć Raspberry PI?",
-      "content": "Upewnij się, że wszystko zachowałeś.",
-      "cancel": "Anuluj",
-      "approve": "Wyłącz teraz"
-    },
-    "buttons": {
-      "reboot": "Uruchom ponownie",
-      "shutdown": "Wyłącz",
-      "usbDevices":"Urządzenia USB",
-      "kernelMessages":"Wiadomości Kernel",
-      "network":"Sieć",
-      "speedTest":"Test prędkości",
-      "process":"Procesy",
-      "sendCommand":"Wyślij komendę"
-    },
-    "customTerminal":{
-      "title":"Terminal",
-      "pomocText":"przykład, wprowadź <code>ls</code> aby wyświetlić wszystkie pliki w katalogu"
-    },
-    "tips":{
-      "title":"Wskazówki dotyczące rozwiązywania problemów",
-      "1":"Jeśli znajdziesz jakieś problemy, pobierz pliki dziennika, a następnie skontaktuj się z właścicielem aplikacji"
+    "led": {
+      "title": "LED Control",
+      "statusLedTitle": "OnBoard Status LED",
+      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
+      "statusLedHelpBlock": "Select a tigger status",
+      "powerLedTitle": "OnBoard Power LED",
+      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
+      "powerLedHelpBlock": "Select a tigger status"
     }
   },
-  "uavcast":{
-    "title":"Pliki dziennika",
-    "buttons":{
-      "uavcast":"UAVcast",
-      "dynDns":"DynDNS",
-      "video":"Obraz",
-      "telemetry":"Telemetria",
-      "navio":"Navio",
-      "downloadLogfiles":"Pobierz wszystkie pliki dziennika"
+  "uavcast": {
+    "title": "Pliki dziennika",
+    "buttons": {
+      "uavcast": "UAVcast",
+      "dynDns": "DynDNS",
+      "video": "Obraz",
+      "telemetry": "Telemetria",
+      "navio": "Navio",
+      "downloadLogfiles": "Pobierz wszystkie pliki dziennika"
     },
-    "tips":{
-      "title":"Wskazówki dotyczące rozwiązywania problemów",
-      "1":"Jeśli napotkasz jakieś problemy, pobierz pliki dziennika i opublikuj je na stronie <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
+    "tips": {
+      "title": "Wskazówki dotyczące rozwiązywania problemów",
+      "1": "Jeśli napotkasz jakieś problemy, pobierz pliki dziennika i opublikuj je na stronie <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
-  "headerLinks":{
-    "community":"社区",
-    "documentation":"文档"
+  "headerLinks": {
+    "community": "社区",
+    "documentation": "文档"
   },
   "sidebarLinks": {
     "categories": {
       "header": "控制面板",
       "settings": {
         "title": "设置",
-        "flightController":"控制器",
+        "flightController": "控制器",
         "groundControl": "地面站",
         "cellModem": "通信模块",
         "dynamicDns": "动态DNS",
@@ -16,11 +16,11 @@
         "vpn": "VPN"
       },
       "tools": {
-        "title":"工具",
+        "title": "工具",
         "raspberry": "覆盆子"
       },
       "application": {
-        "title":"应用",
+        "title": "应用",
         "settings": "设置",
         "version": "版本"
       }
@@ -266,107 +266,118 @@
       "2": ""
     }
   },
-  "settings":{
-    "license":{
-      "title":"应用许可",
-      "subTitle":"许可证配置",
-      "licenseKey":"注册码",
-      "changeKey":"更改",
-      "licenseStatus":"许可证状态",
-      "allowedDevices":"许可的设备",
-      "remainingDevices":"保留的设备",
-      "freeUpSlots":"释放插槽",
-      "currentDevice":"(当前)",
-      "unregisterDevice":"注销",
-      "registeredUser":"注册名称",
-      "activationDate":"激活日期",
-      "expirationDate":"截止日期",
-      "raspberryVersion":"版本",
-      "orderId":"序列号",
-      "supportText":"如果您需要任何进一步的信息，请随时与我们联系",
-      "buttons":{
-        "validate":"验证",
-        "cancel":"取消"
+  "settings": {
+    "license": {
+      "title": "应用许可",
+      "subTitle": "许可证配置",
+      "licenseKey": "注册码",
+      "changeKey": "更改",
+      "licenseStatus": "许可证状态",
+      "allowedDevices": "许可的设备",
+      "remainingDevices": "保留的设备",
+      "freeUpSlots": "释放插槽",
+      "currentDevice": "(当前)",
+      "unregisterDevice": "注销",
+      "registeredUser": "注册名称",
+      "activationDate": "激活日期",
+      "expirationDate": "截止日期",
+      "raspberryVersion": "版本",
+      "orderId": "序列号",
+      "supportText": "如果您需要任何进一步的信息，请随时与我们联系",
+      "buttons": {
+        "validate": "验证",
+        "cancel": "取消"
       }
     },
-    "applicationVersion":{
-      "title":"软件版本",
-      "subTitle":"软件信息",
-      "currentVersion":"当前版本",
-      "changeLog":"更新日志",
-      "application":"应用",
-      "rollbackVersion":"还原以前版本",
-      "rollbackText":"还原到",
-      "newVersionAvailable":"新版本可用",
-      "upgradeSuccess":"安装完成后，请刷新界面",
-      "newversionExist":"您已经拥有最新版本",
-      "buttons":{
-        "refreshBrowser":"刷新浏览器",
-        "downgradeNow":"立即还原!",
-        "checkForUpdates":"检查更新",
-        "updateNow":"立即更新!"
+    "applicationVersion": {
+      "title": "软件版本",
+      "subTitle": "软件信息",
+      "currentVersion": "当前版本",
+      "changeLog": "更新日志",
+      "application": "应用",
+      "rollbackVersion": "还原以前版本",
+      "rollbackText": "还原到",
+      "newVersionAvailable": "新版本可用",
+      "upgradeSuccess": "安装完成后，请刷新界面",
+      "newversionExist": "您已经拥有最新版本",
+      "buttons": {
+        "refreshBrowser": "刷新浏览器",
+        "downgradeNow": "立即还原!",
+        "checkForUpdates": "检查更新",
+        "updateNow": "立即更新!"
       }
     },
-    "applicationSettings":{
-      "title":"设置",
-      "darkTheme":"黑色主题",
-      "serverMessages":"服务器消息",
-      "serverPort":"服务器端口",
-      "serverPortHelpBLock":"默认端口80",
-      "applicationLanguage":"语言",
-      "applicationLanguageDescription":"想要贡献? 读 <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>这里</a>",
-      "applicationLanguageHelpBlock":"设置语言",
-      "buttons":{
-        "changePort":"更改"
+    "applicationSettings": {
+      "title": "设置",
+      "darkTheme": "黑色主题",
+      "serverMessages": "服务器消息",
+      "serverPort": "服务器端口",
+      "serverPortHelpBLock": "默认端口80",
+      "applicationLanguage": "语言",
+      "applicationLanguageDescription": "想要贡献? 读 <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>这里</a>",
+      "applicationLanguageHelpBlock": "设置语言",
+      "buttons": {
+        "changePort": "更改"
       }
     }
   },
   "raspberry": {
-    "title": "Raspberry",
-    "rebootNotification": {
-      "title": "Do you want to Restart Raspberry PI",
-      "content": "Make sure you have saved everything!",
-      "cancel": "Cancel",
-      "approve": "Reboot Now"
+    "diagnostic": {
+      "title": "Raspberry",
+      "rebootNotification": {
+        "title": "Do you want to Restart Raspberry PI",
+        "content": "Make sure you have saved everything!",
+        "cancel": "Cancel",
+        "approve": "Reboot Now"
+      },
+      "shutdownNotification": {
+        "title": "Do you want to shutdown Raspberry PI",
+        "content": "Make sure you have saved everything!",
+        "cancel": "Cancel",
+        "approve": "Shutdown Now"
+      },
+      "buttons": {
+        "reboot": "Reboot",
+        "shutdown": "Shutdown",
+        "usbDevices": "USB devices",
+        "kernelMessages": "Kernel Messages",
+        "network": "Network",
+        "speedTest": "SpeedTest",
+        "process": "Processes",
+        "sendCommand": "Send Command"
+      },
+      "customTerminal": {
+        "title": "Custom Terminal",
+        "helpText": "example, type <code>ls</code> to list all files in the main directory"
+      },
+      "tips": {
+        "title": "Troubleshooting Tips",
+        "1": "If you encounter any problems then please Download log files and contact then application owner"
+      }
     },
-    "shutdownNotification": {
-      "title": "Do you want to shutdown Raspberry PI",
-      "content": "Make sure you have saved everything!",
-      "cancel": "Cancel",
-      "approve": "Shutdown Now"
-    },
-    "buttons": {
-      "reboot": "Reboot",
-      "shutdown": "Shutdown",
-      "usbDevices":"USB devices",
-      "kernelMessages":"Kernel Messages",
-      "network":"Network",
-      "speedTest":"SpeedTest",
-      "process":"Processes",
-      "sendCommand":"Send Command"
-    },
-    "customTerminal":{
-      "title":"Custom Terminal",
-      "helpText":"example, type <code>ls</code> to list all files in the main directory"
-    },
-    "tips":{
-      "title":"Troubleshooting Tips",
-      "1":"If you encounter any problems then please Download log files and contact then application owner"
+    "led": {
+      "title": "LED Control",
+      "statusLedTitle": "OnBoard Status LED",
+      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
+      "statusLedHelpBlock": "Select a tigger status",
+      "powerLedTitle": "OnBoard Power LED",
+      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
+      "powerLedHelpBlock": "Select a tigger status"
     }
   },
-  "uavcast":{
-    "title":"LogFiles",
-    "buttons":{
-      "uavcast":"UAVcast",
-      "dynDns":"DynDNS",
-      "video":"Video",
-      "telemetry":"Telemetry",
-      "navio":"Navio",
-      "downloadLogfiles":"Download all Logfiles"
+  "uavcast": {
+    "title": "LogFiles",
+    "buttons": {
+      "uavcast": "UAVcast",
+      "dynDns": "DynDNS",
+      "video": "Video",
+      "telemetry": "Telemetry",
+      "navio": "Navio",
+      "downloadLogfiles": "Download all Logfiles"
     },
-    "tips":{
-      "title":"Troubleshooting Tips",
-      "1":"If you encounter any problems then please Download log files and post them at <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
+    "tips": {
+      "title": "Troubleshooting Tips",
+      "1": "If you encounter any problems then please Download log files and post them at <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
     }
   }
 }

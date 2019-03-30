@@ -322,36 +322,47 @@
     }
   },
   "raspberry": {
-    "title": "Raspberry",
-    "rebootNotification": {
-      "title": "Raspberry PI'yi yeniden başlatmak istiyor musunuz?",
-      "content": "Her şeyi kaydettiğinizden emin olun!",
-      "cancel": "İptal et",
-      "approve": "Şimdi yeniden başlat."
+    "diagnostic": {
+      "title": "Raspberry",
+      "rebootNotification": {
+        "title": "Raspberry PI'yi yeniden başlatmak istiyor musunuz?",
+        "content": "Her şeyi kaydettiğinizden emin olun!",
+        "cancel": "İptal et",
+        "approve": "Şimdi yeniden başlat."
+      },
+      "shutdownNotification": {
+        "title": "Raspberry PI'yi kapatmak istiyor musunuz?",
+        "content": "Her şeyi kaydettiğinizden emin olun!",
+        "cancel": "İptal et",
+        "approve": "Şimdi kapat"
+      },
+      "buttons": {
+        "reboot": "Yeniden başlat",
+        "shutdown": "Kapat",
+        "usbDevices": "USB cihazları",
+        "kernelMessages": "Kernel mesajları",
+        "network": "Ağ",
+        "speedTest": "Hız Testi",
+        "process": "İşlem",
+        "sendCommand": "Komut Gönder"
+      },
+      "customTerminal": {
+        "title": "Özel Terminal",
+        "helpText": "Örnek: <code>ls</code> yazarak ana dizindeki tüm dosyaları görüntüleyiebilirsiniz."
+      },
+      "tips": {
+        "title": "Sorun giderme önerileri",
+        "1": "Eğer herhangi bir sorun ile karşılaşırsanız lütfen kayıt dosyalarını indirip uygulama sahibi ile iletişime geçiniz."
+      }
     },
-    "shutdownNotification": {
-      "title": "Raspberry PI'yi kapatmak istiyor musunuz?",
-      "content": "Her şeyi kaydettiğinizden emin olun!",
-      "cancel": "İptal et",
-      "approve": "Şimdi kapat"
-    },
-    "buttons": {
-      "reboot": "Yeniden başlat",
-      "shutdown": "Kapat",
-      "usbDevices": "USB cihazları",
-      "kernelMessages": "Kernel mesajları",
-      "network": "Ağ",
-      "speedTest": "Hız Testi",
-      "process": "İşlem",
-      "sendCommand": "Komut Gönder"
-    },
-    "customTerminal": {
-      "title": "Özel Terminal",
-      "helpText": "Örnek: <code>ls</code> yazarak ana dizindeki tüm dosyaları görüntüleyiebilirsiniz."
-    },
-    "tips": {
-      "title": "Sorun giderme önerileri",
-      "1": "Eğer herhangi bir sorun ile karşılaşırsanız lütfen kayıt dosyalarını indirip uygulama sahibi ile iletişime geçiniz."
+    "led": {
+      "title": "LED Control",
+      "statusLedTitle": "OnBoard Status LED",
+      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
+      "statusLedHelpBlock": "Select a tigger status",
+      "powerLedTitle": "OnBoard Power LED",
+      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
+      "powerLedHelpBlock": "Select a tigger status"
     }
   },
   "uavcast": {

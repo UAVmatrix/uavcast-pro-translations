@@ -1,7 +1,7 @@
 {
-  "headerLinks":{
-    "community":"Comunidad",
-    "documentation":"Documentación"
+  "headerLinks": {
+    "community": "Comunidad",
+    "documentation": "Documentación"
   },
   "sidebarLinks": {
     "categories": {
@@ -16,11 +16,11 @@
         "vpn": "VPN"
       },
       "tools": {
-        "title":"Herramientas",
+        "title": "Herramientas",
         "raspberry": "Raspberry"
       },
       "application": {
-        "title":"Aplicación",
+        "title": "Aplicación",
         "settings": "Configuración",
         "version": "Versión"
       }
@@ -266,107 +266,118 @@
       "2": "Google proporciona una sencilla manera de montar un servidor openvpn. Leer más aquí <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
     }
   },
-  "settings":{
-    "license":{
-      "title":"Licencia de la Aplicación",
-      "subTitle":"Resumen Clave de Licencia",
-      "licenseKey":"Clave de Licencia",
-      "changeKey":"cambiar",
-      "licenseStatus":"Estado de la Licencia",
-      "allowedDevices":"Dispositivos Autorizados",
-      "remainingDevices":"Dispositivos Restantes",
-      "freeUpSlots":"Liberar espacios",
-      "currentDevice":"(actual)",
-      "unregisterDevice":"anular el registro",
-      "registeredUser":"Nombre registrado",
-      "activationDate":"Fecha de Activación",
-      "expirationDate":"Fecha de Vencimiento",
-      "raspberryVersion":"Versión de la Raspberry",
-      "orderId":"Solicitar ID",
-      "supportText":"Por favor contacte con nosotros si necesita más información",
-      "buttons":{
-        "validate":"Validar",
-        "cancel":"Cancelar"
+  "settings": {
+    "license": {
+      "title": "Licencia de la Aplicación",
+      "subTitle": "Resumen Clave de Licencia",
+      "licenseKey": "Clave de Licencia",
+      "changeKey": "cambiar",
+      "licenseStatus": "Estado de la Licencia",
+      "allowedDevices": "Dispositivos Autorizados",
+      "remainingDevices": "Dispositivos Restantes",
+      "freeUpSlots": "Liberar espacios",
+      "currentDevice": "(actual)",
+      "unregisterDevice": "anular el registro",
+      "registeredUser": "Nombre registrado",
+      "activationDate": "Fecha de Activación",
+      "expirationDate": "Fecha de Vencimiento",
+      "raspberryVersion": "Versión de la Raspberry",
+      "orderId": "Solicitar ID",
+      "supportText": "Por favor contacte con nosotros si necesita más información",
+      "buttons": {
+        "validate": "Validar",
+        "cancel": "Cancelar"
       }
     },
-    "applicationVersion":{
-      "title":"Versión de la Aplicación",
-      "subTitle":"Resumen de la Aplicación",
-      "currentVersion":"Versión Actual",
-      "changeLog":"Changelog",
-      "application":"Aplicación",
-      "rollbackVersion":"Volver a una Versión Anterior",
-      "rollbackText":"Volver a la Versión:",
-      "newVersionAvailable":"Nueva Versión Disponible",
-      "upgradeSuccess":"Instalación completada, por favor actualiza la página.",
-      "newversionExist":"Ya dispones de la última versión",
-      "buttons":{
-        "refreshBrowser":"Actualiza el Navegador",
-        "downgradeNow":"¡Volver a versión anterior Ahora!",
-        "checkForUpdates":"Buscar Actualizaciones",
-        "updateNow":"¡Actualizar Ahora!"
+    "applicationVersion": {
+      "title": "Versión de la Aplicación",
+      "subTitle": "Resumen de la Aplicación",
+      "currentVersion": "Versión Actual",
+      "changeLog": "Changelog",
+      "application": "Aplicación",
+      "rollbackVersion": "Volver a una Versión Anterior",
+      "rollbackText": "Volver a la Versión:",
+      "newVersionAvailable": "Nueva Versión Disponible",
+      "upgradeSuccess": "Instalación completada, por favor actualiza la página.",
+      "newversionExist": "Ya dispones de la última versión",
+      "buttons": {
+        "refreshBrowser": "Actualiza el Navegador",
+        "downgradeNow": "¡Volver a versión anterior Ahora!",
+        "checkForUpdates": "Buscar Actualizaciones",
+        "updateNow": "¡Actualizar Ahora!"
       }
     },
-    "applicationSettings":{
-      "title":"Configuración",
-      "darkTheme":"Tema Oscuro",
-      "serverMessages":"Mensajes del Servidor",
-      "serverPort":"Puerto del Servidor",
-      "serverPortHelpBLock":"Puerto Predeterminado 80",
-      "applicationLanguage":"Idioma de la Aplicación",
+    "applicationSettings": {
+      "title": "Configuración",
+      "darkTheme": "Tema Oscuro",
+      "serverMessages": "Mensajes del Servidor",
+      "serverPort": "Puerto del Servidor",
+      "serverPortHelpBLock": "Puerto Predeterminado 80",
+      "applicationLanguage": "Idioma de la Aplicación",
       "applicationLanguageDescription": "¿Quieres colaborar con el proyecto? Visita <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a>",
-      "applicationLanguageHelpBlock":"Escoge tu idioma predeterminado",
-      "buttons":{
-        "changePort":"Cambiar"
+      "applicationLanguageHelpBlock": "Escoge tu idioma predeterminado",
+      "buttons": {
+        "changePort": "Cambiar"
       }
     }
   },
   "raspberry": {
-    "title": "Raspberry",
-    "rebootNotification": {
-      "title": "¿Quieres reinciar la Raspberry PI?",
-      "content": "¡Comprueba que hayas guardado todo correctamente!",
-      "cancel": "Cancelar",
-      "approve": "Reiniciar ahora"
+    "diagnostic": {
+      "title": "Raspberry",
+      "rebootNotification": {
+        "title": "¿Quieres reinciar la Raspberry PI?",
+        "content": "¡Comprueba que hayas guardado todo correctamente!",
+        "cancel": "Cancelar",
+        "approve": "Reiniciar ahora"
+      },
+      "shutdownNotification": {
+        "title": "¿Quieres apagar la Raspberry PI?",
+        "content": "¡Comprueba que hayas guardado todo correctamente!",
+        "cancel": "Cancelar",
+        "approve": "Apagar ahora"
+      },
+      "buttons": {
+        "reboot": "Reiniciar",
+        "shutdown": "Apagar",
+        "usbDevices": "Dispositivos USB",
+        "kernelMessages": "Mensajes del Kernel",
+        "network": "Red",
+        "speedTest": "Test de velocidad",
+        "process": "Procesos",
+        "sendCommand": "Mandar comando"
+      },
+      "customTerminal": {
+        "title": "Terminal personalizada",
+        "helpText": "Ejemplo, escribe <code>ls</code> para ver el listado de archivos en tu directorio principal"
+      },
+      "tips": {
+        "title": "Troubleshooting Tips",
+        "1": "Si encuentras algun problema porfavor descarga los archivos de registro y contacta con el propietario de la aplicación"
+      }
     },
-    "shutdownNotification": {
-      "title": "¿Quieres apagar la Raspberry PI?",
-      "content": "¡Comprueba que hayas guardado todo correctamente!",
-      "cancel": "Cancelar",
-      "approve": "Apagar ahora"
-    },
-    "buttons": {
-      "reboot": "Reiniciar",
-      "shutdown": "Apagar",
-      "usbDevices":"Dispositivos USB",
-      "kernelMessages":"Mensajes del Kernel",
-      "network":"Red",
-      "speedTest":"Test de velocidad",
-      "process":"Procesos",
-      "sendCommand":"Mandar comando"
-    },
-    "customTerminal":{
-      "title":"Terminal personalizada",
-      "helpText":"Ejemplo, escribe <code>ls</code> para ver el listado de archivos en tu directorio principal"
-    },
-    "tips":{
-      "title":"Troubleshooting Tips",
-      "1":"Si encuentras algun problema porfavor descarga los archivos de registro y contacta con el propietario de la aplicación"
+    "led": {
+      "title": "LED Control",
+      "statusLedTitle": "OnBoard Status LED",
+      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
+      "statusLedHelpBlock": "Select a tigger status",
+      "powerLedTitle": "OnBoard Power LED",
+      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
+      "powerLedHelpBlock": "Select a tigger status"
     }
   },
-  "uavcast":{
-    "title":"Archivos de registro",
-    "buttons":{
-      "uavcast":"UAVcast",
-      "dynDns":"DynDNS",
-      "video":"Vídeo",
-      "telemetry":"Telemetría",
-      "navio":"Navio",
-      "downloadLogfiles":"Descarga todos los archivos de registro"
+  "uavcast": {
+    "title": "Archivos de registro",
+    "buttons": {
+      "uavcast": "UAVcast",
+      "dynDns": "DynDNS",
+      "video": "Vídeo",
+      "telemetry": "Telemetría",
+      "navio": "Navio",
+      "downloadLogfiles": "Descarga todos los archivos de registro"
     },
-    "tips":{
-      "title":"Troubleshooting Tips",
-      "1":"i encuentras algun problema porfavor descarga los archivos de registro y publicalos a <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
+    "tips": {
+      "title": "Troubleshooting Tips",
+      "1": "i encuentras algun problema porfavor descarga los archivos de registro y publicalos a <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
     }
   }
 }
