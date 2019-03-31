@@ -1,6 +1,7 @@
 {
   "headerLinks": {
-    "community": "Community",
+    "discord": "Discord",
+    "community": "Forum",
     "documentation": "Documentation"
   },
   "sidebarLinks": {
@@ -366,14 +367,15 @@
     }
   },
   "uavcast": {
-    "title": "LogFiles",
+    "title": "Review LogFiles",
+    "troubleshootingText": "If you need any assistance or have a issue you want to address, then download application logfiles and submit them to either uavmatrix forum <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a> or discord server <a href='https://discord.gg/xwqMTXh/'>https://discord.gg/xwqMTXh</a>",
     "buttons": {
       "uavcast": "UAVcast",
       "dynDns": "DynDNS",
       "video": "Video",
       "telemetry": "Telemetry",
       "navio": "Navio",
-      "downloadLogfiles": "Download all Logfiles"
+      "downloadLogfiles": "Download Logfiles"
     },
     "tips": {
       "title": "Troubleshooting Tips",

@@ -1,7 +1,8 @@
 {
   "headerLinks": {
-    "community": "社区",
-    "documentation": "文档"
+    "discord": "Discord",
+    "community": "Forum",
+    "documentation": "Documentation"
   },
   "sidebarLinks": {
     "categories": {
@@ -367,6 +368,7 @@
   },
   "uavcast": {
     "title": "LogFiles",
+    "troubleshootingText": "If you need any assistance or have a issue you want to address, then download application logfiles and submit them to either uavmatrix forum <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a> or discord server <a href='https://discord.gg/xwqMTXh/'>https://discord.gg/xwqMTXh</a>",
     "buttons": {
       "uavcast": "UAVcast",
       "dynDns": "DynDNS",
