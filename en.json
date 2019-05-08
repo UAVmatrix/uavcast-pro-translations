@@ -222,7 +222,7 @@
     "cameraFlip": "Camera Flip",
     "cameraFlipDescription": " Select the image orientation. Horizontal or vertical flip.",
     "resolution": "Resolution.",
-    "resolutionDescription": "Select video resolution.",
+    "resolutionDescription": "Higher resolution require more bandwith. As a thumb rule, HD(1280x720) would require 10Mb upload speed to achive good quality video",
     "width": "Width",
     "height": "Height",
     "bitrate": "Bitrate",
