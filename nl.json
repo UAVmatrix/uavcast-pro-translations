@@ -322,51 +322,63 @@
     }
   },
   "raspberry": {
-    "title": "Raspberry",
-    "rebootNotification": {
-      "title": "Raspberry rebooten",
-      "content": "Zorg dat alle instellingen zijn opgeslagen!",
-      "cancel": "Stop",
-      "approve": "Reboot"
+    "diagnostic": {
+      "title": "Raspberry",
+      "rebootNotification": {
+        "title": "Raspberry rebooten",
+        "content": "Zorg dat alle instellingen zijn opgeslagen!",
+        "cancel": "Stop",
+        "approve": "Reboot"
+      },
+      "shutdownNotification": {
+        "title": "Raspberry afsluiten?",
+        "content": "Zorg dat alle instellingen zijn opgeslagen!",
+        "cancel": "Stop",
+        "approve": "Afsluiten"
+      },
+      "buttons": {
+        "reboot": "Reboot",
+        "shutdown": "Afsluiten",
+        "usbDevices": "USB apparaten",
+        "kernelMessages": "Berichten van kernel",
+        "network": "Netwerk",
+        "speedTest": "Snelheidstest",
+        "process": "Processen",
+        "sendCommand": "Stuur commando"
+      },
+      "customTerminal": {
+        "title": "Raspberry terminal",
+        "helpText": "voorbeeld, typ <code>ls</code> om alle bestanden in de hoofdmap te bekijken"
+      },
+      "tips": {
+        "title": "Troubleshooting tips",
+        "1": "Download logfiles en contacteer software eigenaar als er zich problemen voordoen"
+      }
     },
-    "shutdownNotification": {
-      "title": "Raspberry afsluiten?",
-      "content": "Zorg dat alle instellingen zijn opgeslagen!",
-      "cancel": "Stop",
-      "approve": "Afsluiten"
-    },
-    "buttons": {
-      "reboot": "Reboot",
-      "shutdown": "Afsluiten",
-      "usbDevices":"USB apparaten",
-      "kernelMessages":"Berichten van kernel",
-      "network":"Netwerk",
-      "speedTest":"Snelheidstest",
-      "process":"Processen",
-      "sendCommand":"Stuur commando"
-    },
-    "customTerminal":{
-      "title":"Raspberry terminal",
-      "helpText":"voorbeeld, typ <code>ls</code> om alle bestanden in de hoofdmap te bekijken"
-    },
-    "tips":{
-      "title":"Troubleshooting tips",
-      "1":"Download logfiles en contacteer software eigenaar als er zich problemen voordoen"
+    "led": {
+      "title": "LED Control",
+      "statusLedTitle": "OnBoard Status LED",
+      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
+      "statusLedHelpBlock": "Select a tigger status",
+      "powerLedTitle": "OnBoard Power LED",
+      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
+      "powerLedHelpBlock": "Select a tigger status"
     }
   },
-  "uavcast":{
-    "title":"LogFiles",
-    "buttons":{
-      "uavcast":"UAVcast",
-      "dynDns":"DynDNS",
-      "video":"Video",
-      "telemetry":"Telemetrie",
-      "navio":"Navio",
-      "downloadLogfiles":"Download alle logfiles"
+  "uavcast": {
+    "title": "Review LogFiles",
+    "troubleshootingText": "If you need any assistance or have a issue you want to address, then download application logfiles and submit them to either uavmatrix forum <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a> or discord server <a href='https://discord.gg/xwqMTXh/'>https://discord.gg/xwqMTXh</a>",
+    "buttons": {
+      "uavcast": "UAVcast",
+      "dynDns": "DynDNS",
+      "video": "Video",
+      "telemetry": "Telemetrie",
+      "navio": "Navio",
+      "downloadLogfiles": "Download alle logfiles"
     },
-    "tips":{
-      "title":"Probleemoplossing, tips",
-      "1":"Download log files en post ze hier als er zich problemen voordoen <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
+    "tips": {
+      "title": "Probleemoplossing, tips",
+      "1": "Download log files en post ze hier als er zich problemen voordoen <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
     }
   }
 }
