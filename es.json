@@ -383,7 +383,7 @@
   },
   "uavcast": {
     "title": "Archivos de registro",
-    "troubleshootingText": "If you need any assistance or have a issue you want to address, then download application logfiles and submit them to either uavmatrix forum <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a> or discord server <a href='https://discord.gg/xwqMTXh/'>https://discord.gg/xwqMTXh</a>",
+    "troubleshootingText": "If you need any assistance or have a issue you want to address, then download application logfiles and submit them to",
     "buttons": {
       "uavcast": "UAVcast",
       "dynDns": "DynDNS",
@@ -394,7 +394,7 @@
     },
     "tips": {
       "title": "Troubleshooting Tips",
-      "1": "i encuentras algun problema porfavor descarga los archivos de registro y publicalos a <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a>"
+      "1": "i encuentras algun problema porfavor descarga los archivos de registro y publicalos a"
     }
   }
 }
