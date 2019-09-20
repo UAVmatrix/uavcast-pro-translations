@@ -139,7 +139,7 @@
     },
     "destinationModule": {
       "name": "name",
-      "host": "Host",
+      "host": "Destination IP",
       "telemPort": "Telem Port",
       "videoPort": "Video Port",
       "videoSwitch": "Video",
@@ -224,7 +224,7 @@
     "width": "Width",
     "height": "Height",
     "bitrate": "Bitrate",
-    "bitrateDescription": "Default : 2000000 or 2Mbits/s. Use bits per second, so 10Mbits/s would be 10000000. For H264, 1080p30 a high quality bitrate would be 15Mbits/s or more. Maximum bitrate is 25Mbits/s (25000000), but much over 17Mbits/s won't show noticeable improvement at 1080p30.",
+    "bitrateDescription": "Default : 1000000 or 1Mbits/s. Use bits per second, so 10Mbits/s would be 10000000. For H264, 1080p30 a high quality bitrate would be 15Mbits/s or more. Maximum bitrate is 25Mbits/s (25000000), but much over 17Mbits/s won't show noticeable improvement at 1080p30.",
     "bitrateHelpBlock": "Select Bitrate",
     "rotation": "Rotation",
     "rotationDescription": "Sets the rotation of the image in the viewfinder and resulting image. This can take any value from 0 upwards, but due to hardware constraints only 0, 90, 180, and 270 degree rotations are supported",
