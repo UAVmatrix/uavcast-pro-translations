@@ -40,14 +40,14 @@
       },
       "buttons": {
         "startCasting": {
-          "title": "Start / Stop castings",
-          "information": "This will start all the applications you have enabled in the correct order.",
+          "title": "Simulate UAVcast startup sequence",
+          "information": "Test the startup sequence of enabled items. When Autostart is enabled, RPI will run this command automatically during bootup.",
           "start": "Start Casting",
           "stop": "Stop Casting"
         },
         "autostart": {
           "title": "Enable Autostart",
-          "information": "UAVcast will start automatically when raspberry boots up.",
+          "information": "Enable if you want UAVcast to start automatically when raspberry boots up.",
           "enable": "Enable Auto",
           "disable": "Disable Auto"
         }
@@ -94,7 +94,7 @@
       },
       "network": {
         "title": "Network Stats",
-        "subTitle": "Updated every 10sec",
+        "subTitle": "Updated every 10sec (PiZero 20sec)",
         "interface": "Interface",
         "received": "Received",
         "sent": "Sent",
@@ -156,7 +156,7 @@
     "modelDescription": "Choose between Stick or HiLink<br /> Example: <code>E3276H</code> (Ending character)<br /> HiLink modems uses embedded software to connect LTE / 4G network",
     "hilinkInterface": "Interface",
     "hilinkInterfaceDescription": "Set the HiLink modem interface name. This is normally <code>eth1</code> for RPI 2/3 and <code>eth0</code> for Pi0w.<br /> LED will turn green if the interface has proper internet access.",
-    "manager": "Model",
+    "manager": "Manager",
     "managerDescription": "Select whether or not you want to use Network Manager or Modem Manager to manage the cell connection. Modems behaves diffrently, so test both options if you have issues. Its recommended to restart RPI if you change this option.",
     "stickInterface": "Interface",
     "stickInterfaceDescription": "Set the Stick modem interface name. This is normally either <code>wwan0</code> or <code>ppp0</code>. You can see the interface name by pressing the network button below.<br /> LED will turn green if the interface has proper internet access.",
@@ -374,10 +374,10 @@
     "led": {
       "title": "LED Control",
       "statusLedTitle": "OnBoard Status LED",
-      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
+      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED. <br /><b>Note!</b> Not all boards is equiped with status LED.",
       "statusLedHelpBlock": "Select a tigger status",
       "powerLedTitle": "OnBoard Power LED",
-      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
+      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED.",
       "powerLedHelpBlock": "Select a tigger status"
     }
   },
