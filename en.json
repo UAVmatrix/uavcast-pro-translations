@@ -278,8 +278,8 @@
     },
     "tips": {
       "title": "Tips",
-      "1": "Its highly recommended to use ZeroTier VPN. Very easy to configure and its using the NAT travesal technic. ZeroTier will try to esablish a direct connection without using 3rd party server. This will reduce the latency.",
-      "2": " Google provides an easy way to launch a openvpn server. Read more here <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
+      "1": "To utilize Zerotier VPN, please refer to their`s documentation on how to install and connect VPN networks.",
+      "2": "Google provides an easy way to launch a openvpn server. Read more here <a href='https://openvpn.net/index.php/access-server/on-google-cloud.html'>https://openvpn.net/index.php/access-server/on-google-cloud.html</a>"
     }
   },
   "settings": {
