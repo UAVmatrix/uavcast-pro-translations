@@ -18,7 +18,10 @@
       },
       "tools": {
         "title": "Tools",
-        "raspberry": "Raspberry"
+        "raspberry": "Raspberry",
+        "diagnostic": "Diagnostic",
+        "network": "Network",
+        "led": "Led"
       },
       "application": {
         "title": "Application",
@@ -115,6 +118,8 @@
     "baudDescription": "Select baud rate",
     "protocol": "Protocol",
     "protocolDescription": "Select connection protocol",
+    "internal_address_header": "FC Internal Address",
+    "internal_address_description": "This is the internal address raspberry uses for communication with Flight Controller. <br /> Only change if you know what you are doing!",
     "buttons": {
       "start": "Start Telemetry",
       "stop": "Stop Telemetry",
@@ -244,6 +249,9 @@
     "cameraFlip": "Camera Flip",
     "cameraFlipDescription": " Select the image orientation. Horizontal or vertical flip.",
     "cameraFlipHelpBlock": "Orientation",
+    "httplivestreamHeader": "HTTP live stream",
+    "httplivestreamDescription": "Recommended settings for In-Browser live stream<br />FPS => 10 - 15<br />Resolution => 960x540<br />",
+    "httplivestreamLink": "Goto VideoStream Page",
     "buttons": {
       "start": "Start Camera",
       "stop": "Stop Camera",
@@ -339,7 +347,7 @@
   },
   "raspberry": {
     "diagnostic": {
-      "title": "Raspberry",
+      "title": "Raspberry Diagnostic",
       "rebootNotification": {
         "title": "Do you want to Restart Raspberry PI",
         "content": "Make sure you have saved everything!",
@@ -369,6 +377,49 @@
       "tips": {
         "title": "Troubleshooting Tips",
         "1": "If you encounter any problems then please Download log files and contact then application owner"
+      }
+    },
+    "network": {
+      "hostname": {
+        "title": "Hostname",
+        "description": "A hostname is the label assigned to your RPI. Its used to distinguish one device from another on a network. You can access your RPI using the hostname instead of IP address. Default name is <a target='_blank' rel='noopener noreferrer' href='http://raspberrypi/'>raspberrypi</a>"
+      },
+      "interface": {
+        "title": "Interfaces",
+        "description": "You will find all active interfaces below. Box with green outline is your default connection to the outer world.<br />Do not change any values while in flight, this might disconnect you from the vehicle.",
+        "ipaddress": "IP Address",
+        "netmask": "Netmask",
+        "gateway": "Gateway",
+        "ipv6": "IPv6",
+        "buttons": {
+          "save": "Save"
+        }
+      },
+      "route": {
+        "title": "Default network route",
+        "pre-description": "Raspberry Pi is currently using gateway",
+        "post-description": "to access the World Wide Web.",
+        "description": "You can specify another default interface from the dropdown bellow. Only physical devices can be selected, not VPN or other bridged interface.<br />Raspberry will still use other interfaces, but priority the one you select as first option."
+      },
+      "wifi": {
+        "title": "WiFi Network",
+        "description": "Disconnect wifi adapter temporarily. It will re-connect during next startup.",
+        "scantext": "Scan for WiFi networks.",
+        "connecttext": "Press the network name you want to connect to.",
+        "buttons": {
+          "disconnect": "Disconnect WiFi",
+          "scannow": "Scan Now"
+        },
+        "table": {
+          "ssid": "SSID",
+          "signal": "Signal",
+          "channel": "Channel"
+        },
+        "modal": {
+          "title": "Warning!",
+          "description": "You are about to disconnect WiFI interface.<br />Make sure you are connected by other means if you want to stay connected.<br /> Are you sure you want to proceed?",
+          "accepttext": "Proceed"
+        }
       }
     },
     "led": {
