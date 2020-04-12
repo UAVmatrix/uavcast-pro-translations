@@ -345,36 +345,36 @@
   },
   "raspberry": {
     "diagnostic": {
-      "title": "Raspberry",
+      "title": "树莓派",
       "rebootNotification": {
-        "title": "Do you want to Restart Raspberry PI",
-        "content": "Make sure you have saved everything!",
-        "cancel": "Cancel",
-        "approve": "Reboot Now"
+        "title": "确认重启？",
+        "content": "确认你已存储所有设置",
+        "cancel": "取消",
+        "approve": "立即重启"
       },
       "shutdownNotification": {
-        "title": "Do you want to shutdown Raspberry PI",
-        "content": "Make sure you have saved everything!",
-        "cancel": "Cancel",
-        "approve": "Shutdown Now"
+        "title": "确认关机？",
+        "content": "确认你已经存储所有设置",
+        "cancel": "取消",
+        "approve": "立即关机"
       },
       "buttons": {
-        "reboot": "Reboot",
-        "shutdown": "Shutdown",
-        "usbDevices": "USB devices",
-        "kernelMessages": "Kernel Messages",
-        "network": "Network",
-        "speedTest": "SpeedTest",
-        "process": "Processes",
-        "sendCommand": "Send Command"
+        "reboot": "重启",
+        "shutdown": "关机",
+        "usbDevices": "USB 存储",
+        "kernelMessages": "内核消息",
+        "network": "网络",
+        "speedTest": "网速测试",
+        "process": "流程",
+        "sendCommand": "发送命令"
       },
       "customTerminal": {
-        "title": "Custom Terminal",
+        "title": "定制终端",
         "helpText": "example, type <code>ls</code> to list all files in the main directory"
       },
       "tips": {
-        "title": "Troubleshooting Tips",
-        "1": "If you encounter any problems then please Download log files and contact then application owner"
+        "title": "故障排除技巧",
+        "1": "如果您遇到任何问题，请下载日志文件，然后与应用程序所有者联系"
       }
     },
     "network": {
@@ -421,8 +421,8 @@
       }
     },
     "led": {
-      "title": "LED Control",
-      "statusLedTitle": "OnBoard Status LED",
+      "title": "LED 控制",
+      "statusLedTitle": "板载状态LED",
       "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
       "statusLedHelpBlock": "Select a tigger status",
       "powerLedTitle": "OnBoard Power LED",
