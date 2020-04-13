@@ -118,6 +118,8 @@
     "baudDescription": "Escoge la velocidad de transmisión",
     "protocol": "Protocolo",
     "protocolDescription": "Selecciona protocolo de conexión",
+    "internal_address_header": "FC Internal Address",
+    "internal_address_description": "This is the internal address raspberry uses for communication with Flight Controller. <br /> Only change if you know what you are doing!",
     "buttons": {
       "start": "Iniciar conexión",
       "stop": "Detener conexión",

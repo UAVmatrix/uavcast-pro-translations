@@ -118,6 +118,8 @@
     "baudDescription": "Выберите скорость подключения",
     "protocol": "Протокол",
     "protocolDescription": "Выберите протокол подключения",
+    "internal_address_header": "FC Internal Address",
+    "internal_address_description": "This is the internal address raspberry uses for communication with Flight Controller. <br /> Only change if you know what you are doing!",
     "buttons": {
       "start": "Старт Телеметрия",
       "stop": "Стоп Телеметрия",
