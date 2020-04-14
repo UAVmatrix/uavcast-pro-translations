@@ -340,8 +340,21 @@
       "applicationLanguage": "Язык приложения",
       "applicationLanguageDescription": "Хотите внести свой вклад? Читайте <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>here</a>",
       "applicationLanguageHelpBlock": "Установите язык по умолчанию",
+      "backupTitle": "Backup Database",
+      "backupDescription": "Backup all of your configurations.",
+      "resetLogfilesTitle": "Reset Logfiles",
+      "resetLogfilesDescription": "Erase content of all logfiles.",
+      "resetDatabaseTitle": "Reset Database",
+      "resetDatabaseDescription": "This will not erase userdata such as license, but all configurations will be lost.",
+      "restoreTitle": "Restore Database",
+      "restoreDescription": "Restore database from an earlier backup. (.zip) <br /> NOTE! All current config will be overwritten.",
+      "restore": "Backup all of your configurations.",
       "buttons": {
-        "changePort": "Изменить"
+        "resetLogfiles": "Erase Files",
+        "resetDatabase": "Reset Database",
+        "backup": "Backup Database",
+        "restore": "Restore Database",
+        "changePort": "Change"
       }
     }
   },
