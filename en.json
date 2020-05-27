@@ -143,9 +143,9 @@
       "addDestinations": "Add Destination"
     },
     "destinationModule": {
-      "name": "name",
-      "host": "Destination IP",
-      "telemPort": "Telem Port",
+      "name": "Name",
+      "host": "Destination IP or Host",
+      "telemPort": "Telemetry Port",
       "videoPort": "Video Port",
       "videoSwitch": "Video",
       "telemSwitch": "Telemetry",
