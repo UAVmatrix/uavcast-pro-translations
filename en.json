@@ -292,8 +292,8 @@
   },
   "settings": {
     "license": {
-      "title": "Application License",
-      "subTitle": "License key overview",
+      "title": "License",
+      "subTitle": "You can activate your license key as many times you want, there are no limitation, only a expire date.<br> Raspberry Pi will contact our license server uppon registration, make sure you have proper internet connection.",
       "licenseKey": "License key",
       "changeKey": "change",
       "licenseStatus": "License Status",
@@ -314,7 +314,7 @@
       }
     },
     "applicationVersion": {
-      "title": "Application Version",
+      "title": "Version",
       "subTitle": "Application overview",
       "currentVersion": "Current Version",
       "changeLog": "Changelog",
@@ -457,7 +457,7 @@
       "video": "Video",
       "telemetry": "Telemetry",
       "navio": "Navio",
-      "downloadLogfiles": "Download Logfiles"
+      "downloadLogfiles": "Download"
     },
     "tips": {
       "title": "Troubleshooting Tips",
