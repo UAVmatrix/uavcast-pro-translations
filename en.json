@@ -108,14 +108,14 @@
     }
   },
   "flightcontroller": {
-    "title": "Flight Controller",
-    "subTitle": "Flight Controller configuration",
+    "title": "Controller Type",
+    "subTitle": "Status LED",
     "fcType": "FC Type",
     "fcTypeDescription": "Choose a flight controller. All ardupilot versions and Px4 is supported.",
     "connection": "Connection",
     "connectionDescription": "Select connection method",
     "baud": "Baud",
-    "baudDescription": "Select baud rate",
+    "baudDescription": "Default baudrate is 57600",
     "protocol": "Protocol",
     "protocolDescription": "Select connection protocol",
     "internal_address_header": "FC Internal Address",
