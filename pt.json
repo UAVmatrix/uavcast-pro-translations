@@ -215,7 +215,7 @@
       "2": "Você pode usar fornecedores grautitos como <a href='https://www.noip.com/'>https://www.noip.com</a>, <a href='https://www.duckdns.org/'>https://www.duckdns.org/</a>"
     }
   },
-  "câmera": {
+  "camera": {
     "title": "Câmera",
     "subTitle": "Configuração da Câmera",
     "câmeraType": "Tipo de Câmera",
